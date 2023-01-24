@@ -1,0 +1,114 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: hsl(30, 38%, 92%);
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 10px 0px 0px 10px;
+}
+.main
+{
+    display: flex;
+    width: 500px;
+    height: 400px;
+    margin: 190px 50px;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+.info{
+    font-size: 14px;
+}
+.text-content{
+    margin-left: 10px;
+    width: 210px;
+    margin: 10;
+    padding:10px;
+    font-family: Fraunces;
+}
+.head{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+}
+.head2{
+    color:hsl(212, 21%, 14%);
+    font-size: 23px;
+    font-weight: 700;
+    width: 150px;
+    font-family: 'Fraunces', serif;
+}
+.info{
+    color: hsl(228, 12%, 48%);
+    font-family: outfit;
+}
+h2{
+    color:hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-family: Fraunces;
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    color:hsl(30, 38%, 92%);
+    text-align: center;
+    font-family: arial rounded mt;
+}
+.amount .cancle{
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+    text-align: center;
+    margin-top: 35px;
+}
+.amount
+{
+    display: flex;
+    gap: 10px;
+    margin-top: -10px;
+}
+@media (max-width:749px){
+    .container
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: hsl(30, 38%, 92%);
+    }
+    .main
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 750px;
+    margin: 190px 50px;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 10px 10px 0px 0px;
+}
+img{
+    height: 350px;
+    width: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+text-content{
+    margin-left: 10px;
+    width: 400px;
+    margin: 10;
+    padding:10px;
+    font-family: Fraunces;
+    font-size: 50px;
+}
+head2{
+    color:hsl(212, 21%, 14%);
+    font-size: 23px;
+    font-weight: 700;
+    width: 500px;
+    font-family: 'Fraunces', serif;
+}
+}
